@@ -15,6 +15,6 @@ public class ValidationResult {
     }
 
     public boolean isValid() {
-        return errors.isEmpty();
+        return !errors.isEmpty();
     }
 }
